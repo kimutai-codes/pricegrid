@@ -1,18 +1,20 @@
 body{
     font-family: "Karla", sans-serif;
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 400;
     background-color: white;
 }
 
-.item{
-    border: gainsboro 1px solid;
-    padding: 10px 40px;
+.container{
+    align-content: center;
 }
 
-.intro{
+.item{
+    
+    padding: 10px 40px;
     
 }
+
 
 .heading-primary{
     color: hsl(179, 62%, 43%);
@@ -25,6 +27,7 @@ body{
 .heading-tertiay{
     font-weight: 700;
 }
+
 .about{
     color: hsl(218, 22%, 67%);
 }
@@ -32,6 +35,7 @@ body{
 .one{
     background-color:hsl(179, 62%, 43%); 
     color: white;
+    padding-bottom: 30px;
 }
 
 .cost{
@@ -44,7 +48,16 @@ body{
     }
 
 .btn{
-
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 13px;
+    font-weight: 700;
+    background-color: hsl(71, 73%, 54%);
+    color: #fff;
+    text-align: center;
+    width: 19%;
+    border-radius: 6px;
+    
 }
 
 .two{
