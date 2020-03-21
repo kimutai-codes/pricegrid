@@ -2,15 +2,21 @@ body{
     font-family: "Karla", sans-serif;
     font-size: 16px;
     font-weight: 400;
-    background-color: white;
-    text-align: center;
-    border: 1px thistle solid;
+    background-color:#e5eff5;
+    
 }
 
 .container{
-    align-content: center;
+    position: absolute;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 6px;
+    margin: 10px 30px;
 }
 
+.intro{
+    background-color: #fff;
+}
 .item{
     
     padding: 10px 40px;
