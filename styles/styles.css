@@ -1,22 +1,25 @@
+/*still learning css*/
 body{
     font-family: "Karla", sans-serif;
     font-size: 16px;
     font-weight: 400;
     background-color:#e5eff5;
-    
 }
 
 .container{
-    position: absolute;
-    overflow: hidden;
-    text-align: center;
+	position: absolute;
+	overflow: hidden;
     border-radius: 6px;
-    margin: 10px 30px;
+	margin: 10px 30px;
+	display: grid;
 }
 
 .intro{
-    background-color: #fff;
+	background-color: #fff;
+	grid-column-start: 1;
+	grid-column-end: 3;
 }
+
 .item{
     
     padding: 10px 40px;
@@ -47,30 +50,34 @@ body{
 }
 
 .cost{
-    color: #fff;
+	color: #fff;
+	font-size: 17px;
     font-weight: 700;
 }
+	.cost span{
+		font-size: 26px;
+	}
 
     .cost small{
-        color: lightblue;
+		color: lightblue;
     }
 
 .btn{
     
-    padding: 10px 30px;
+    padding: 15px 30px;
     font-size: 14px;
     font-weight: 700;
     background-color: hsl(71, 73%, 54%);
     color: #fff;
-    width: unset;
     border-radius: 6px;
     text-decoration: none;
-    
+	text-align: center;
+	display: block;
 }
 
 .two{
     background-color: hsl(179,43%,51%);
-    color: white;
+	color: white;
 }
 
 .value{
