@@ -4,28 +4,41 @@ body{
     font-size: 16px;
     font-weight: 400;
     background-color:#e5eff5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    flex-direction: column;
 }
 
 .container{
-	position: absolute;
-	overflow: hidden;
+    position: relative;
+    overflow: hidden;
     border-radius: 6px;
     display: grid;
-    margin-top: 120px;
-    margin-left: 330px;
+    width: fit-content;
+    margin-top: 130px;
 }
 
 .intro{
-	background-color: #fff;
-	grid-column-start: 1;
-    grid-column-end: 3;
+    background-color: #fff;
+}
+
+/*.top-container{
+
+}
+*/
+.bottom-container{
+    display: grid;
+    
 }
 
 .item{
-    
+    box-sizing: border-box;
     padding: 10px 40px;
     
 }
+
 
 
 .heading-primary{
@@ -47,7 +60,7 @@ body{
 .one{
     background-color:hsl(179, 62%, 43%); 
     color: white;
-    padding-bottom: 30px;
+    grid-column: 1;
 }
 
 .cost{
@@ -73,12 +86,14 @@ body{
     border-radius: 6px;
     text-decoration: none;
 	text-align: center;
-	display: block;
+    display: block;
+    width: 70%;
 }
 
 .two{
     background-color: hsl(179,43%,51%);
     color: white;
+    grid-column: 2;
 }
 
 .value{
