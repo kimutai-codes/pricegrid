@@ -100,3 +100,7 @@ body{
 .value{
     color:lightblue ;
 }
+
+.attribution{
+    font-size: 10px;
+}
